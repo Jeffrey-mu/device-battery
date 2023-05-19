@@ -19,7 +19,7 @@ interface device_battery_data {
   dischargingTime?: string // 完全放电需要的时间
   description: string // 描述信息
 }
-console.log(await device_battery)
+console.log(await device_battery())
 ```
 
 ## License
