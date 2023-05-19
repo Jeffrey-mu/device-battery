@@ -1,17 +1,17 @@
 {
-  "name": "pkg-name",
+  "name": "device_battery",
   "type": "module",
   "version": "0.0.0",
   "packageManager": "pnpm@7.2.1",
   "description": "",
   "author": "Jeffrey-mu <1115378579@qq.com>",
   "license": "MIT",
-  "homepage": "https://github.com/Jeffrey-mu/pkg-name#readme",
+  "homepage": "https://github.com/Jeffrey-mu/device_battery#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jeffrey-mu/pkg-name.git"
+    "url": "git+https://github.com/Jeffrey-mu/device_battery.git"
   },
-  "bugs": "https://github.com/Jeffrey-mu/pkg-name/issues",
+  "bugs": "https://github.com/Jeffrey-mu/device_battery/issues",
   "keywords": [],
   "sideEffects": false,
   "exports": {
