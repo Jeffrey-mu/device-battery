@@ -9,9 +9,16 @@
 npm install device_battery
 
 ```
-```js
+```ts
 import { device_battery } from 'device_battery'
-
+interface device_battery_data {
+  isok: boolean // 获取状态
+  level?: string // 电量百分百
+  charging?: string // 充电状态
+  chargingTime?: string // 完全充电需要的时间
+  dischargingTime?: string // 完全放电需要的时间
+  description: string // 描述信息
+}
 console.log(await device_battery)
 ```
 
